@@ -1,0 +1,155 @@
+@charset "utf-8";
+body {
+	background-color:#ececec; 
+	margin-top: 0px; 
+	margin-bottom: 0px;"
+}
+#Master {
+	width: 960px;
+	height: 1824px;
+	background-color: #FFFFFF;
+	margin: 0px auto;
+	border: #CCC solid 1px;
+}
+
+#Header {
+	width:960px;
+}
+
+#Logo{
+	position:absolute;
+	float:left;
+}
+
+#Menu{
+	width:960px;
+	height: 40px;
+}
+
+.MenuItem {
+	float:left;
+}
+
+#Slideshow {
+	width:940px;
+	height:325px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#CentralBox1{
+	height:380px;
+	margin-top:30px;
+	margin-left:10px;
+	width:300px;
+	float:left;
+	background-image:url(CentralBoxBG.jpg);
+	border: 1px solid #b4a78a;
+}
+
+#CentralBox2{
+	height:380px;
+	margin-top:30px;
+	margin-left:12px;
+	width:310px;
+	float:left;
+	background-image:url(CentralBoxBG.jpg);
+	border: 1px solid #b4a78a;
+}
+
+#CentralBox3{
+	height:380px;
+	margin-top:30px;
+	margin-left:12px;
+	width:300px;
+	float:left;
+	background-image:url(CentralBoxBG.jpg);
+	border: 1px solid #b4a78a;
+}
+
+.CenterHeader{
+	position:absolute;
+	margin-top:-25px;
+	margin-left:0px;
+}
+
+#CentralBox2 > .CenterPicture{
+	width:280px;
+	height:125px;
+	background-color:#FFFFFF;
+	margin: 55px 0 0 13px;
+}
+
+.CenterPicture{
+	width:280px;
+	height:125px;
+	background-color:#FFFFFF;
+	margin: 55px 0 0 10px;
+}
+
+.CenterText{
+	width:280px;
+	height:280px;
+	margin-left:10px;
+	margin-top:5px;
+	color:#686868;
+	line-height:23px;
+}
+
+.EventsAndCalendar{
+	width:940px;
+	margin: 10px auto;
+	height:400px;
+}
+
+#CurrentEvents {
+	width:465px;
+	height:398px;
+	float:left;
+	margin-left:10px;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+#Calendar {
+	width:465px;
+	height:400px;
+	float:right;
+	margin-right:10px;
+	margin-top: 10px;
+}
+
+#PhotoGallery{
+	height:380px;
+	margin-top:10px;
+	margin-left:10px;
+	width:305px;
+	float:left;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+#FacebookPile{
+	height:380px;
+	margin-top:10px;
+	margin-left:12px;
+	width:305px;
+	float:left;
+}
+
+#TwitterFeed{
+	height:380px;
+	margin-top:10px;
+	margin-left:12px;
+	width:305px;
+	float:left;
+}
+
+#Footer {
+	margin-top:10px;
+	width:960px;
+	height:115px;
+	float:left;
+}
